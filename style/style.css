@@ -1,0 +1,13 @@
+html {
+    min-height: 100svh;
+}
+body {
+    display: flex;
+}
+.side-image {
+    display: flex;
+    width: 40%;    
+}
+.form-section {
+    display: flex;
+}
