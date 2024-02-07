@@ -93,3 +93,12 @@ body {
    background-color: rgba(227, 203, 142, 0.158);
 
 }
+
+.third button{
+    margin-left: 2%;
+    margin: 3%;
+}
+
+.login{
+    margin-left: 2%;
+}
