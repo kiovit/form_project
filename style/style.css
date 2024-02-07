@@ -26,15 +26,15 @@ body {
 }
 .side-image h1 {
     position: absolute;
-    top: 14.2%;
-    left: 0.1%; 
+    top: 20%;
+    left: 0.5%; 
     font-family: 'CustomFont', sans-serif;
     font-size: 4rem;
     font-weight: 600;
     letter-spacing: -2px;
     color: rgb(190, 26, 20); /* alternative to consider (green)rgb(84, 143, 17)*/
     background-color: rgba(0, 0, 0, 0.132);
-    padding-left: 1rem;    
+    padding-left: 1.5rem;    
     height: fit-content;
     width: 30vw;  
 }
@@ -48,10 +48,10 @@ body {
 .first h3 {    
     margin-top: 0;
     margin-left: 2%;
-    padding-top: 1rem;
+    padding-top: 4rem;
     padding-bottom: 1rem;
     font-family: 'CustomFont', sans-serif;
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     font-weight:400;
     letter-spacing: 0,3px;
 }
@@ -61,7 +61,7 @@ body {
     height: 43vh;
 }
 .second h3 {
-    margin-top: 0;
+    margin-top:0;
     margin-left: 2%;
     padding-top: 1rem;
     font-family: 'CustomFont', sans-serif;
