@@ -45,7 +45,7 @@ body {
 
 .first {
     background-color: rgba(227, 203, 142, 0.158);
-    height: 37vh;
+    height: 39vh;
    
 }
 
@@ -64,7 +64,7 @@ body {
 .second {
     background-color: rgba(0, 0, 0, 0.132);
     box-shadow: 2px 5px #E5E7EB;
-    height: 38vh;
+    height: 40vh;
 }
 
 .second h3 {
@@ -91,7 +91,7 @@ body {
 }
 
 .third{
-   height: 25vh;
+   height: 21vh;
    background-color: rgba(227, 203, 142, 0.158);
 
 }
@@ -124,13 +124,13 @@ body {
         height: 28vh;
     }
     .first {
-        height: 27vh;
+        height: 29vh;
     }
     .second{
-        height: 25vh;
+        height: 27vh;
     }
     .third{
-        height: 20vh;
+        height: 16vh;
     }    
     .side-image h1{
         justify-content:flex-start;
