@@ -87,7 +87,7 @@ body {
 }
 .third button{
     margin-left: 5%;
-    margin-top: 3%;
+    margin-top: 8%;
     margin-bottom: 3%;
     background-color: rgba(0, 0, 0, 0.132);
     color: rgb(190, 26, 20);
@@ -119,6 +119,7 @@ body {
             padding-top: 1rem;
             padding-bottom: 1rem; /* Added padding-bottom to ensure space */
             font-size: 1.3rem;
+            line-height: 1;
             margin-top: 0; /* Reset margin */
             margin-bottom: 0; /* Reset margin */
     }
