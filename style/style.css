@@ -110,12 +110,13 @@ body {
     .side-image{
         width: 100vw;
         height: 28vh;
-    }
+    }   
     .first {
         height: 29vh;
     }
     .first h3{
         padding-top: 1rem;
+        font-size: 1.3rem;
     }
     .second{
         height: 27vh;
@@ -124,10 +125,10 @@ body {
         height: 16vh;
     }    
     .side-image h1{
-        justify-content:flex-start;
-        width: 100%;
+        align-items: center;
+        width: 97%;
         font-size: 3rem;
-        padding-left: 10px;
+        padding-left: 8px;
     }
     .center{
         width: 100%;
