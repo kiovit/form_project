@@ -43,7 +43,7 @@ body {
 }
 .first {
     background-color: rgba(227, 203, 142, 0.158);
-    height: 36vh;   
+    height: 30vh;   
 }
 .first h3 {    
     margin-top: 0;
@@ -58,7 +58,7 @@ body {
 .second {
     background-color: rgba(0, 0, 0, 0.132);
     box-shadow: 2px 5px #E5E7EB;
-    height: 43vh;
+    height: 45vh;
 }
 .second h3 {
     margin-top:0;
@@ -81,7 +81,7 @@ body {
     margin-bottom: 1rem;
 }
 .third{
-   height: 21vh;
+   height: 25vh;
    background-color: rgba(227, 203, 142, 0.158);
 }
 .third button{
@@ -109,20 +109,20 @@ body {
     } 
     .side-image{
         width: 100vw;
-        height: 28vh;
+        height: 30vh;
     }   
     .first {
-        height: 29vh;
+        height: 25vh;
     }
     .first h3{
         padding-top: 1rem;
         font-size: 1.3rem;
     }
     .second{
-        height: 27vh;
+        height: 30vh;
     }
     .third{
-        height: 16vh;
+        height: 15vh;
     }    
     .side-image h1{
         align-items: center;
