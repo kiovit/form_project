@@ -8,16 +8,13 @@ html {
     -webkit-font-smoothing: antialiased; /* For better font rendering on WebKit browsers */
     -moz-osx-font-smoothing: grayscale; /* For better font rendering on macOS Firefox */
 }
-
 body {
     margin: 0;    
 }
-
 .container {
     display: flex;
     height: 100vh;
 }
-
 .side-image {
     position: relative;
     display: flex;
@@ -27,56 +24,48 @@ body {
     background-size: cover;    
     width: 46vw;
 }
-
 .side-image h1 {
     position: absolute;
-    top: 17.2%;
+    top: 14.2%;
     left: 0.1%; 
     font-family: 'CustomFont', sans-serif;
     font-size: 4rem;
     font-weight: 600;
     letter-spacing: -2px;
-    color: rgb(190, 26, 20);
+    color: rgb(190, 26, 20); /* alternative to consider (green)rgb(84, 143, 17)*/
     background-color: rgba(0, 0, 0, 0.132);
     padding-left: 1rem;    
     height: fit-content;
     width: 30vw;  
 }
-
 .center{
     width:100%;
 }
-
 .first {
     background-color: rgba(227, 203, 142, 0.158);
-    height: 39vh;   
+    height: 36vh;   
 }
-
 .first h3 {    
     margin-top: 0;
-    margin-bottom: 2%;
     margin-left: 2%;
-    padding-top: 2rem;
-    padding-bottom: 2.8rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
     font-family: 'CustomFont', sans-serif;
     font-size: 1.3rem;
     font-weight:400;
     letter-spacing: 0,3px;
 }
-
 .second {
     background-color: rgba(0, 0, 0, 0.132);
     box-shadow: 2px 5px #E5E7EB;
-    height: 40vh;
+    height: 43vh;
 }
-
 .second h3 {
     margin-top: 0;
     margin-left: 2%;
     padding-top: 1rem;
     font-family: 'CustomFont', sans-serif;
 }
-
 .form-main{
     margin-left: 2%;
     display: flex;
@@ -84,7 +73,6 @@ body {
     width: 55%;
     justify-content: space-between;
 }
-
 .form-div{
     display: flex;
     flex-direction: column;
@@ -92,13 +80,10 @@ body {
     font-size: 1rem;
     margin-bottom: 1rem;
 }
-
 .third{
    height: 21vh;
    background-color: rgba(227, 203, 142, 0.158);
-
 }
-
 .third button{
     margin-left: 2%;
     margin: 3%;
@@ -112,7 +97,6 @@ body {
     font-size: small;
     box-shadow: 2px 5px #E5E7EB;
 }
-
 .login{
     margin-left: 2%;
 }
