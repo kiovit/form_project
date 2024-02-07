@@ -48,10 +48,11 @@ body {
 .first h3 {    
     margin-top: 0;
     margin-left: 2%;
+    margin-bottom: 0;
     padding-top: 4rem;
-    padding-bottom: 1rem;
+    padding-bottom: 0.8rem;
     font-family: 'CustomFont', sans-serif;
-    font-size: 1.6rem;
+    font-size: 1.5rem;
     font-weight:400;
     letter-spacing: 0,3px;
 }
@@ -109,14 +110,17 @@ body {
     } 
     .side-image{
         width: 100vw;
-        height: 30vh;
+        height: 28vh;
     }   
-    .first {
-        height: 25vh;
+    .first{
+        height: 27vh;
     }
     .first h3{
-        padding-top: 1rem;
-        font-size: 1.3rem;
+            padding-top: 1rem;
+            padding-bottom: 1rem; /* Added padding-bottom to ensure space */
+            font-size: 1.3rem;
+            margin-top: 0; /* Reset margin */
+            margin-bottom: 0; /* Reset margin */
     }
     .second{
         height: 30vh;
