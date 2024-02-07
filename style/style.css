@@ -133,4 +133,7 @@ body {
     .center{
         width: 100%;
     }
+    .form-main{
+        margin-left: 3%;
+    }
 }
