@@ -26,8 +26,8 @@ body {
 }
 .side-image h1 {
     position: absolute;
-    top: 20%;
-    left: 0.5%; 
+    top: 22%;
+    left: 0.3%; 
     font-family: 'CustomFont', sans-serif;
     font-size: 4rem;
     font-weight: 600;
@@ -112,6 +112,9 @@ body {
     }
     .first {
         height: 29vh;
+    }
+    .first h3{
+        padding-top: 1rem;
     }
     .second{
         height: 27vh;
