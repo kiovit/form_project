@@ -2,12 +2,6 @@ html {
     min-height: 100svh;
 }
 
-@media screen and (max-width: 600px) {
-    .container {
-        flex-direction: column;
-    }    
-}
-
 body {
     margin: 0;
     padding: 0;
@@ -24,16 +18,16 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;    
-    min-width: 35vw;
+    width: 35vw;
 }
 
 .title{
-    width: 100%;
+    width: 35vw;
 }
 
 .title h1 {
     font-family: 'Courier New', Courier, monospace;
-    font-size: 3rem;
+    font-size: 5rem;
     font-weight: 700;
     letter-spacing: -3px;
     color: rgb(190, 26, 20);
@@ -44,6 +38,7 @@ body {
 
 .center{
     width:100%;
+
 }
 
 .first {
@@ -101,4 +96,35 @@ body {
 
 .login{
     margin-left: 2%;
+}
+
+@media screen and (max-width: 600px) {
+    .container {
+        flex-direction: column;
+        width:100%;
+    } 
+    .side-image{
+        width: 100vw;
+        height: 30vh;
+    }
+    .first {
+        height: 25vh;
+    }
+    .second{
+        height: 25vh;
+    }
+    .third{
+        height: 20vh;
+    }    
+    
+    .title{
+        width: 100vw;
+    }
+    .title h1{
+        width: 100%;
+        font-size: 3rem;
+    }
+    .center{
+        width: 100%;
+    }
 }
