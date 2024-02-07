@@ -87,7 +87,7 @@ body {
 }
 .third button{
     margin-left: 5%;
-    margin-top: 8%;
+    margin-top: 6%;
     margin-bottom: 3%;
     background-color: rgba(0, 0, 0, 0.132);
     color: rgb(190, 26, 20);
@@ -110,7 +110,7 @@ body {
     } 
     .side-image{
         width: 100vw;
-        height: 28vh;
+        height: 30vh;
     }   
     .first{
         height: 27vh;
@@ -127,7 +127,7 @@ body {
         height: 30vh;
     }
     .third{
-        height: 15vh;
+        height: 13vh;
     }    
     .side-image h1{
         align-items: center;
