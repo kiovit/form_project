@@ -4,7 +4,11 @@ html {
 @font-face {
     font-family: 'CustomFont';
     src: url("../Phudu/Phudu-VariableFont_wght.ttf") format('truetype'),
+    url("../Phudu/Phudu-VariableFont_wght.ttf") format('truetype');
+    -webkit-font-smoothing: antialiased; /* For better font rendering on WebKit browsers */
+    -moz-osx-font-smoothing: grayscale; /* For better font rendering on macOS Firefox */
 }
+
 body {
     margin: 0;    
 }
