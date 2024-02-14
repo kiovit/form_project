@@ -146,6 +146,9 @@ body {
         font-size: 3rem;
         padding-left: 8px;
     }
+    .side-image img{
+        align-items:flex-end;
+    }
     .center{
         width: 100%;
     }
