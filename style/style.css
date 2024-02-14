@@ -98,7 +98,7 @@ justify-content: space-around;
     margin-left: 5%;
     display: flex;
     flex-direction: row;
-    width: 60%;
+    width: 55%;
     justify-content: space-between;
 }
 .form-div{
@@ -125,6 +125,15 @@ justify-content: space-around;
     font-size: medium;
     box-shadow: 2px 5px #E5E7EB;
 }
+.third button:hover {
+    background-color: #001020;
+  }
+
+.third button:active {
+    transform: translateY(4px);
+  }
+
+
 .login{
     margin-left: 2%;
 }
