@@ -39,7 +39,7 @@ html, body {
     margin: 0;         
 }
 .title{
-margin-top: 45%;    
+margin-top: 35%;    
 display: flex;
 flex-direction:row;
 align-items: center;
@@ -52,7 +52,7 @@ justify-content: space-around;
 }
 
 .title img{
-    width: 30%;
+    width: 35%;
 }
 
 .center{
@@ -65,13 +65,14 @@ justify-content: space-around;
 
 .first {
     background-color: rgba(227, 203, 142, 0.158);
+    padding-bottom: 0.7rem;
 }
 
 .first h3 {    
     margin-top: 0;
     margin-left: 2%;
     margin-bottom: 1rem;
-    padding-top: 2rem;
+    padding-top: 3rem;
     padding-bottom: 0.8rem;
     font-family: 'CustomFont', sans-serif;
     font-size: 1.7rem;
@@ -82,8 +83,8 @@ justify-content: space-around;
 .second {
     background-color: rgba(0, 0, 0, 0.132);
     box-shadow: 2px 5px #E5E7EB;
-    padding-top: 3rem;
-    padding-bottom: 3rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
 }
 .second h3 {
     font-size: 2rem;
@@ -136,5 +137,8 @@ justify-content: space-around;
     .side-image{
         width: 100vw;
         height: 30vh;
-    }   
+    } 
+    .title{
+        margin-top: 25%;
+    }  
 }
