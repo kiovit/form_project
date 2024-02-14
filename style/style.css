@@ -91,6 +91,8 @@ body {
     font-family: 'CustomFont', sans-serif;
     font-size: 1rem;
     margin-bottom: 1rem;
+    width: 250px; /* Set the width */  
+    box-sizing: border-box; /* Include padding and border in the box size */
 }
 .third{
    height: 25vh;
