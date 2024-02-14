@@ -1,6 +1,9 @@
-html {
+html, body {
     min-height: 100svh;
-}
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
 @font-face {
     font-family: 'CustomFont';
     src: url("../Phudu/Phudu-VariableFont_wght.ttf") format('truetype'),
@@ -8,26 +11,20 @@ html {
     -webkit-font-smoothing: antialiased; /* For better font rendering on WebKit browsers */
     -moz-osx-font-smoothing: grayscale; /* For better font rendering on macOS Firefox */
 }
-body {
-    margin: 0;    
-}
+
 .container {
     display: flex;
-    height: 100vh;
+    flex-direction: row;
+    min-height: 100%;
+    width: 100%;    
 }
-.side-image {
-    display: flex;
-    position: relative;
+.side-image { 
     background-image: url("../side-image.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;    
-    width: 46vw;
 }
 .side-image h1 {
-    position: absolute;
-    top: 24.44%;
-    left: 0.2%; 
     font-family: 'CustomFont', sans-serif;
     font-size: 4rem;
     font-weight: 600;
@@ -38,28 +35,39 @@ body {
          2px -2px 0 #ffffff,
         -2px  2px 0 #ffffff,
          2px  2px 0 #ffffff;
-    background-color: rgba(0, 0, 0, 0.132);
-    padding-left: 1.5rem;    
-    height: fit-content;
-    width: 30vw;  
+    padding: 0;
+    margin: 0;         
 }
-.side-image img {
-    position: absolute;
-    top: 28.5%;
-    left: 75%;    
+.title{
+margin-top: 32%;    
+display: flex;
+flex-direction:row;
+align-items: center;
+background-color: rgba(0, 0, 0, 0.132);
+justify-content: space-around;
+gap: -25%;
+}
+
+.title img{
+    width: 25%;
 }
 
 .center{
-    width:100%;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-height: 100%;
+    background-color: rgba(227, 203, 142, 0.158);    
 }
+
 .first {
     background-color: rgba(227, 203, 142, 0.158);
-    height: 30vh;   
 }
+
 .first h3 {    
     margin-top: 0;
     margin-left: 2%;
-    margin-bottom: 0;
+    margin-bottom: 3rem;
     padding-top: 4rem;
     padding-bottom: 0.8rem;
     font-family: 'CustomFont', sans-serif;
@@ -67,10 +75,12 @@ body {
     font-weight:400;
     letter-spacing: 0,3px;
 }
+
 .second {
     background-color: rgba(0, 0, 0, 0.132);
     box-shadow: 2px 5px #E5E7EB;
-    height: 45vh;
+    padding-top: 2rem;
+    padding-bottom: 3rem;
 }
 .second h3 {
     margin-top:0;
@@ -91,11 +101,8 @@ body {
     font-family: 'CustomFont', sans-serif;
     font-size: 1rem;
     margin-bottom: 1rem;
-    width: 250px; /* Set the width */  
-    box-sizing: border-box; /* Include padding and border in the box size */
 }
 .third{
-   height: 25vh;
    background-color: rgba(227, 203, 142, 0.158);
 }
 .third button{
@@ -116,7 +123,7 @@ body {
     margin-left: 2%;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 850px) {
     .container {
         flex-direction: column;
         width:100%;
@@ -125,36 +132,4 @@ body {
         width: 100vw;
         height: 30vh;
     }   
-    .first{
-        height: 27vh;
-    }
-    .first h3{
-            padding-top: 1rem;
-            padding-bottom: 1rem; /* Added padding-bottom to ensure space */
-            font-size: 1.3rem;
-            line-height: 1;
-            margin-top: 0; /* Reset margin */
-            margin-bottom: 0; /* Reset margin */
-    }
-    .second{
-        height: 30vh;
-    }
-    .third{
-        height: 13vh;
-    }    
-    .side-image h1{
-        align-items: center;
-        width: 97%;
-        font-size: 3rem;
-        padding-left: 8px;
-    }
-    .side-image img{
-        align-items:flex-end;
-    }
-    .center{
-        width: 100%;
-    }
-    .form-main{
-        margin-left: 3%;
-    }
 }
